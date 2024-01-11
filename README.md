@@ -18,7 +18,7 @@ pio run -t upload  # while B0 connected to 3.3V
 ### Run
 
 ```bash
-screen -L /dev/tty.usbmodem207138A832521 115200  # or similar device
+pio device monitor
 ```
 
 ### Output
